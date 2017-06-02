@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="knownHosts" Description="Known hosts" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Develop|4dms-web-o01.sc.nines.nl|10.128.85.133|4dms-db-o01|10.128.85.132&lt;/string&gt;
+  &lt;string&gt;Test|4dms-web-t01.sc.nines.nl|10.128.85.117|4dms-db-t01|10.128.85.116&lt;/string&gt;
+  &lt;string&gt;Acceptance|4dms-web-a01.sc.nines.nl|10.128.85.100|4dms-db-a01|10.128.85.102&lt;/string&gt;
+  &lt;string&gt;Production Shared|4dms-shrd-web-p01.sc.nines.nl|10.128.85.68|4dms-shrd-db-p01|10.128.85.72&lt;/string&gt;
+  &lt;string&gt;Production 4DMC|4dms-4dmc-web-p01.sc.nines.nl|10.128.85.20|4dms-4dmc-db-p01|10.128.85.24&lt;/string&gt;
+  &lt;string&gt;Production Eneco|4dms-eneco-web-p01.sc.nines.nl|10.128.85.36|4dms-eneco-db-p01|10.128.85.40&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="knownFingerprints" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

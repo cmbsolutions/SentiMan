@@ -1,0 +1,19 @@
+﻿mkdir .ssh
+chmod 700 .ssh
+cd .ssh
+touch authorized_keys
+chmod 600 authorized_keys
+[loop_ssh_keys]{0} >> authorized_keys
+cat authorized_keys
+cd ..
+mkdir lib
+chmod 700 lib
+cd lib
+mkdir secure
+chmod 700 secure
+cd secure
+touch private.key
+chmod 600 private.key
+[private_key]{0} >> private.key
+cat private.key
+exit
